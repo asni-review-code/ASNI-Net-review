@@ -1,12 +1,12 @@
-# Reviewer request coverage
+# Reproducibility checklist
 
-| Request | Delivered files / commands |
+| Material | Delivered files / commands |
 |---|---|
-| R1 minor 6: source code | `asni_net/`, MIT license and third-party notices |
-| R1 minor 6: fixed splits | `splits/{bus_bra,tn3k,mmotu,bus_uclm}.csv`, immutable membership and checksums |
-| R1 minor 6: training configurations | all nine `configs/*.yaml`, exact scratch model initialization, `train`, full `--resume` |
-| R1 minor 6: evaluation scripts | `evaluate`, `predict`, original-size geometry, empty-mask rules and grouping |
-| R1 major 6: reproducible split delivery | full member lists, MMOTU curation, provider/version records and `prepare` / `verify-data` |
+| Source code | `asni_net/`, MIT license and third-party notices |
+| Fixed splits | `splits/{bus_bra,tn3k,mmotu,bus_uclm}.csv`, fixed membership and checksums |
+| Training configurations | all nine `configs/*.yaml`, exact scratch model initialization, `train`, full `--resume` |
+| Evaluation scripts | `evaluate`, `predict`, original-size geometry, empty-mask rules and grouping |
+| Split reconstruction | full member lists, MMOTU curation, provider/version records and `prepare` / `verify-data` |
 | Training variation | all nine tensor-only checkpoints, per-seed reference tables, `summarize` |
 | Coordinate / node / offset explanations | documented model code, `inspect` with offsets and A/B matrices |
 | Runtime evidence | `benchmark` with raw synchronized samples and explicit standalone measurement scope |

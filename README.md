@@ -8,7 +8,7 @@
 
 [![CPU checks](https://github.com/asni-review-code/ASNI-Net-review/actions/workflows/tests.yml/badge.svg)](https://github.com/asni-review-code/ASNI-Net-review/actions/workflows/tests.yml)
 
-[Paper-to-code guide](docs/PAPER_TO_CODE.md) · [Results](#experimental-results) · [Quick start](#quick-start) · [Weights](docs/MODEL_ZOO.md) · [中文](README_zh.md)
+[Paper-to-code guide](docs/PAPER_TO_CODE.md) · [Results](#experimental-results) · [Quick start](#quick-start) · [Weights](docs/MODEL_ZOO.md)
 
 </div>
 
@@ -21,7 +21,7 @@ Node Interaction Network for 2D Ultrasound Lesion Segmentation.”**
 This repository is provided for peer review. Final author and bibliographic
 details will be added after review.
 
-This review snapshot provides the formal model, nine training configurations and checkpoints,
+The repository provides the formal model, nine training configurations and checkpoints,
 fixed data splits, original-resolution evaluation, and per-image reference results.
 Models are trained separately for each dataset. The architecture contains
 **1.45M registered parameters**, uses **16 nodes**, and accepts **512 × 512** inputs.
@@ -96,6 +96,11 @@ BUS-BRA images/annotations: Gómez-Flores et al., [Medical Physics (2024)](https
 
 ## Quick start
 
+The repository homepage shows the maintained `main` branch. Clone it with the
+commands below, or select **Code → Download ZIP** and open a terminal in the
+extracted directory. Saved releases retain the files present when they were
+created; later changes to `main` are available from the repository homepage.
+
 ```bash
 git clone https://github.com/asni-review-code/ASNI-Net-review.git
 cd ASNI-Net-review
@@ -168,8 +173,9 @@ parameters are documented in [the protocol](docs/PROTOCOL.md) and
 
 ## Citation and license
 
-For this software, use [CITATION.cff](CITATION.cff) and identify the review snapshot
-with its manifest checksum when needed. The accompanying manuscript title is given above;
+For this software, use [CITATION.cff](CITATION.cff). To record the exact code used
+for a run, save the commit identifier (`git rev-parse HEAD`) or the checksum of
+`release_manifest.json` alongside your results. The accompanying manuscript title is given above;
 its final bibliographic record will be added when available.
 
 Code and supplied model weights are distributed under [LICENSE](LICENSE), which

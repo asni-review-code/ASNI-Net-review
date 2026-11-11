@@ -1,6 +1,6 @@
 # Paper-to-code correspondence
 
-Reference: the English revision manuscript dated 2026-11-10, titled
+Reference: the English revision manuscript checked on 2026-11-11, titled
 **ASNI-Net: An Adaptive Sampling and Node Interaction Network for 2D Ultrasound
 Lesion Segmentation**. Section/table numbers below follow that revision.
 
@@ -46,4 +46,4 @@ python -m asni_net summarize reference_results/bus_bra_20260928_test.csv referen
 - The release contains new descriptive state keys with unchanged tensor values.
   Resume existing v1 training states with v1 code; see [compatibility](ARCHITECTURE.md).
 
-[Reviewer request coverage](REVIEWER_REQUIREMENTS.md) · [Complete reproduction guide](REPRODUCING.md)
+[Reproducibility checklist](REVIEWER_REQUIREMENTS.md) · [Complete reproduction guide](REPRODUCING.md)

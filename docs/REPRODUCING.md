@@ -2,6 +2,12 @@
 
 Run every command below from the repository root.
 
+Start from the `main` branch linked on the repository homepage. For an existing
+Git checkout, `git status` shows local changes and `git rev-parse HEAD` identifies
+the code being used. Keep that identifier with your run records; each saved
+release remains a separate snapshot. Archive downloads include
+[`release_manifest.json`](../release_manifest.json) with file checksums.
+
 ## Installation
 
 Use Python 3.12. The original experiments used Python 3.12.3 and PyTorch 2.8.0
@@ -120,4 +126,9 @@ This is an extraction of the actual trained architecture, not a new architecture
 or a rerun of the paper's full training campaign. Hardware/software changes can
 change floating-point results and timing. [PROTOCOL.md](PROTOCOL.md) separates
 model/checkpoint equivalence from full training reproducibility.
+
+The [GitHub CPU workflow](https://github.com/asni-review-code/ASNI-Net-review/actions/workflows/tests.yml)
+runs the same test suite on a fresh Linux runner with Python 3.12. A passing
+workflow checks the software paths above; it is not a repeat of the paper's
+full training or GPU evaluation.
 

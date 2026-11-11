@@ -167,20 +167,20 @@
       "bytes": 1896
     },
     "docs/PAPER_TO_CODE.md": {
-      "sha256": "967d58037d3be1553c5b917f4834820041b464634c8c301006c8003d72f62cca",
-      "bytes": 4014
+      "sha256": "e6e2f293c17790ff842e9b85e810b9eebaaf4d30ec0df93eb45cb34d6792505e",
+      "bytes": 4019
     },
     "docs/PROTOCOL.md": {
       "sha256": "cdb655cedde266e4758f9ed3ecdfc3c81e30899b6ea5acc1dd908ac1a1e04674",
       "bytes": 5452
     },
     "docs/REPRODUCING.md": {
-      "sha256": "f6342dda3d6b17985a2762a98e3c1cf06b433d6441ba472cef07fe14b86264d8",
-      "bytes": 6652
+      "sha256": "6d0a2adf782ed10d204e38f72ad3c1984d6f1fb3fde14c45ade9faca69b79b89",
+      "bytes": 7333
     },
     "docs/REVIEWER_REQUIREMENTS.md": {
-      "sha256": "63c2be228f37a6988f894aae8e7a86f9e7e4a7995d6fb4c746441648c1fc9c4e",
-      "bytes": 1477
+      "sha256": "e316b62a9ffa8bc4fba74c71f4f830bceacab814ba04ea996c0e98f05f328a9d",
+      "bytes": 1407
     },
     "LICENSE": {
       "sha256": "55cfbac2fe09032a484ecc94933b61ef425c9ce5f0a841209c50e5fd6e10a785",
@@ -191,12 +191,8 @@
       "bytes": 550
     },
     "README.md": {
-      "sha256": "ba31c96104535cd7b96015efbd55291b78f5ca4f906bda0c8d1b06dccf1cb3c4",
-      "bytes": 9265
-    },
-    "README_zh.md": {
-      "sha256": "58a2f1a1b91711999f025f365107cd49b53b83ef15aac45915404c9aee5d8da9",
-      "bytes": 2910
+      "sha256": "c4727cc94eb535147b79b1e6ebcfb853ad0bf52396cd78d1ea8ded1196048905",
+      "bytes": 9636
     },
     "reference_results/bus_bra_20260928_test.csv": {
       "sha256": "31304382e639cfdf56620906f507bfc8e216ff407ff3e4985b6ef4c407afbd7d",
