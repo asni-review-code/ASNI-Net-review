@@ -24,13 +24,24 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-2. Adapted encoder/decoder and initialization portions
+2. Rolling-Unet implementation portions
 
 Source: Rolling-Unet, https://github.com/Jiaoyang45/Rolling-Unet
 Revision: 8a43d40c218917e454c0584a853757e3a2cf9c80
-Scope: adapted encoder/decoder, convolution and token projection in
-asni_net/model.py and asni_net/layers.py; the frozen scratch-construction
-sequence reproduced in asni_net/initialization.py.
+The adapted implementation portions are:
+- asni_net/layers.py: ConvStage and TokenProjection.
+- asni_net/model.py: the retained encoder/decoder layer configuration and
+  surrounding data flow (pooling, normalization, additive skip connections,
+  upsampling and output projection).
+- asni_net/initialization.py: layer-initialization rules and the construction
+  sequence retained to reproduce the frozen experiment's starting parameters.
+
+The SIP weighted fusion, NI computation and their integration with channel
+mapping are project-specific changes. The original rolling token mixer and
+DSC forward branch are not used. This notice identifies implementation
+provenance; it does not attribute the general encoder-decoder concept or the
+ASNI-Net method as a whole to Rolling-Unet. The axial sampling design reference
+is listed separately in section 3.
 
 MIT License
 
