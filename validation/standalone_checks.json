@@ -1,0 +1,62 @@
+[
+  {
+    "check": "isolated_import",
+    "exit_code": 0,
+    "seconds": 2.257728499826044
+  },
+  {
+    "check": "cli_help",
+    "exit_code": 0,
+    "seconds": 2.3240590000059456
+  },
+  {
+    "check": "unit_tests",
+    "exit_code": 0,
+    "seconds": 11.278284500120208
+  },
+  {
+    "check": "summary",
+    "exit_code": 0,
+    "seconds": 2.578150600194931
+  },
+  {
+    "check": "predict",
+    "exit_code": 0,
+    "seconds": 2.817557399859652
+  },
+  {
+    "check": "inspect",
+    "exit_code": 0,
+    "seconds": 2.8856380998622626
+  },
+  {
+    "check": "benchmark_smoke",
+    "exit_code": 0,
+    "seconds": 3.1096139000728726
+  },
+  {
+    "check": "real_validation",
+    "exit_code": 0,
+    "seconds": 26.811295199906453
+  },
+  {
+    "check": "prepare_synthetic",
+    "exit_code": 0,
+    "seconds": 2.5608403000514954
+  },
+  {
+    "check": "train_cli",
+    "exit_code": 0,
+    "seconds": 4.12191030010581
+  },
+  {
+    "check": "resume_cli",
+    "exit_code": 0,
+    "seconds": 3.780563399894163
+  },
+  {
+    "check": "training_finished",
+    "exit_code": 0,
+    "seconds": 0.10429409984499216
+  }
+]

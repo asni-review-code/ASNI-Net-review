@@ -1,0 +1,14 @@
+[
+  {
+    "check": "create_environment",
+    "exit_code": 0
+  },
+  {
+    "check": "install_editable",
+    "exit_code": 0
+  },
+  {
+    "check": "installed_entrypoint",
+    "exit_code": 0
+  }
+]

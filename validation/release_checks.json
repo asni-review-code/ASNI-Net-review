@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-09",
+  "public_upload_performed": false,
+  "gpu_used": false,
+  "new_scientific_training": false,
+  "protected_sources": {
+    "checked": 29,
+    "changed": 0
+  },
+  "protected_checkpoints": {
+    "checked": 9,
+    "changed": 0
+  },
+  "per_seed_summary_values_verified": 54,
+  "trained_checkpoints_verified": 9,
+  "complete_validation_evaluation": {
+    "dataset": "mmotu",
+    "seed": 20260928,
+    "images": 82,
+    "device": "cpu",
+    "independent_metric_max_errors": {
+      "dice": 0.0,
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "hd95_penalized_px": 0.0,
+      "asd_penalized_px": 0.0
+    },
+    "max_per_image_metric_difference_from_archived_gpu_evaluation": {
+      "dice": 1.4553296035280106e-05,
+      "iou": 1.4498426920694918e-05,
+      "precision": 9.158585146940013e-07,
+      "recall": 1.4664046690315846e-05,
+      "hd95_penalized_px": 0.0,
+      "asd_penalized_px": 0.001374599962169043
+    },
+    "scope": "Software validation on the fixed validation set; not a new training experiment."
+  },
+  "previous_archive_and_snapshot_unchanged": true,
+  "v1_v2_complete_validation_equal": {
+    "images": 82,
+    "all_masks_probabilities_and_per_image_metrics_equal": true
+  },
+  "inspection_matrices_and_stage_shapes_verified": true,
+  "license_texts_unchanged": true,
+  "standalone_checks_passed": 12,
+  "installation_checks_passed": 3,
+  "validation_limits": [
+    "No full scientific retraining",
+    "No new GPU testing",
+    "All nine archived checkpoints checked; 512x512 model equivalence uses one validation image per checkpoint",
+    "Standalone timing is not the historic multi-model profiling process",
+    "Necessary third-party provenance retained; not claimed to be entirely original code"
+  ]
+}

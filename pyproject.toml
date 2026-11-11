@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asni-net"
+version = "2.0.1"
+description = "Adaptive Sampling and Node Interaction Network for 2D ultrasound lesion segmentation"
+requires-python = ">=3.10"
+dependencies = ["torch==2.8.0", "numpy>=1.26", "scipy>=1.11", "Pillow>=10", "PyYAML>=6"]
+license = {file = "LICENSE"}
+
+[project.scripts]
+asni = "asni_net.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["asni_net*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

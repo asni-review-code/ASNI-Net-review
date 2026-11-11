@@ -1,0 +1,22 @@
+{
+  "bus_bra": {
+    "images_verified": 1875,
+    "masks_verified": 1875,
+    "seconds": 33.49992870003916
+  },
+  "tn3k": {
+    "images_verified": 3493,
+    "masks_verified": 3493,
+    "seconds": 65.33296210016124
+  },
+  "mmotu": {
+    "images_verified": 1167,
+    "masks_verified": 1167,
+    "seconds": 34.01263260003179
+  },
+  "bus_uclm": {
+    "images_verified": 665,
+    "masks_verified": 665,
+    "seconds": 22.902384900022298
+  }
+}

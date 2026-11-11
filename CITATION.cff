@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Anonymous review snapshot for the accompanying ASNI-Net manuscript; final bibliographic details will be provided after review."
+type: software
+title: "ASNI-Net: Adaptive Sampling and Node Interaction Network — research code"
+authors:
+  - name: "Anonymous contributors"
+version: 2.0.1
+repository-code: "https://github.com/asni-review-code/ASNI-Net-review"
+url: "https://github.com/asni-review-code/ASNI-Net-review"
+license: MIT
+keywords:
+  - ultrasound
+  - medical-image-segmentation
+  - deep-learning
+  - reproducibility

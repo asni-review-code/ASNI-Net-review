@@ -1,0 +1,53 @@
+{
+  "selection": "Nearest to per-image Dice quantiles 0.1/0.5/0.9 over all 376 test images; ties by sample ID. Post-hoc illustration; no retraining or new inference.",
+  "samples": [
+    {
+      "dataset": "BUS-BRA v1.0",
+      "sample_id": "bus_0060-r",
+      "seed": 20260928,
+      "selection_percentile": 0.1,
+      "percentile_target_dice": 0.8135828809174024,
+      "dice": 0.8096908572681429,
+      "tp": 3693,
+      "fp": 126,
+      "fn": 1610,
+      "tn": 96967,
+      "image_sha256": "6af6d2fe2e0ad4c9130249b9e39e72451b0ca653f873876137bb5f168e9575ee",
+      "prediction_sha256": "a17cc9ddf9bbda6cf4a7ae46c4e32c223f76f90ba8042150e29184f357c15136",
+      "source_checkpoint_sha256": "d714ba8dd51d26df3004abdf68680bacc719c8a2afe990bab96348a014c4b088",
+      "confusion_counts_verified": true
+    },
+    {
+      "dataset": "BUS-BRA v1.0",
+      "sample_id": "bus_0478-r",
+      "seed": 20260928,
+      "selection_percentile": 0.5,
+      "percentile_target_dice": 0.9305240409597404,
+      "dice": 0.9304103068720108,
+      "tp": 20329,
+      "fp": 524,
+      "fn": 2517,
+      "tn": 115843,
+      "image_sha256": "d919def6ca130029c806a154d39564161d29ef2d50fb5647b77b9ba5a83075f9",
+      "prediction_sha256": "6287bc4c45b4d94f69096e3b30c128d0d1093e0dd654f762346bcc3f36099fb3",
+      "source_checkpoint_sha256": "d714ba8dd51d26df3004abdf68680bacc719c8a2afe990bab96348a014c4b088",
+      "confusion_counts_verified": true
+    },
+    {
+      "dataset": "BUS-BRA v1.0",
+      "sample_id": "bus_0418-r",
+      "seed": 20260928,
+      "selection_percentile": 0.9,
+      "percentile_target_dice": 0.9623591029116202,
+      "dice": 0.962277865503672,
+      "tp": 19196,
+      "fp": 250,
+      "fn": 1255,
+      "tn": 118295,
+      "image_sha256": "d69e6314e7dadc01614bbb566ce1efff668f975ad0017c1287b41162cf686e6b",
+      "prediction_sha256": "bae0df64a011b50e2f6e7c4e7d066fb6af749d90c2847c1d05d9c7401a7add79",
+      "source_checkpoint_sha256": "d714ba8dd51d26df3004abdf68680bacc719c8a2afe990bab96348a014c4b088",
+      "confusion_counts_verified": true
+    }
+  ]
+}

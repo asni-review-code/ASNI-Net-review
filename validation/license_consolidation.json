@@ -1,0 +1,22 @@
+{
+  "version": "2.0.1",
+  "date": "2026-11-09",
+  "scope": "License-file consolidation only; runtime docstring links and version metadata updated.",
+  "complete_original_license_texts_retained": 3,
+  "third_party_sources_and_applicable_scope_retained": true,
+  "removed_standalone_files": [
+    "THIRD_PARTY_NOTICES.md",
+    "licenses/rolling_unet_MIT.txt",
+    "licenses/tokenmixers_MIT.txt"
+  ],
+  "runtime_modules_verified_by_ast": [
+    "asni_net/initialization.py",
+    "asni_net/layers.py",
+    "asni_net/model.py",
+    "asni_net/__init__.py"
+  ],
+  "trained_weights_unchanged": 9,
+  "other_existing_files_unchanged": true,
+  "validation_note": "Runtime v2 verification receipts remain applicable: computation, data and weights are unchanged. No repeated numerical tests needed for this documentation change.",
+  "public_upload_performed": false
+}

@@ -1,0 +1,163 @@
+{
+  "device": "cpu",
+  "source": "frozen asni_local_b",
+  "seeds": [
+    {
+      "seed": 20260928,
+      "initial_tensors_rng_parameter_order_equal": true,
+      "eval_train_logits_gradients_and_adamw_update_equal": true
+    },
+    {
+      "seed": 20260929,
+      "initial_tensors_rng_parameter_order_equal": true,
+      "eval_train_logits_gradients_and_adamw_update_equal": true
+    },
+    {
+      "seed": 20260930,
+      "initial_tensors_rng_parameter_order_equal": true,
+      "eval_train_logits_gradients_and_adamw_update_equal": true
+    },
+    {
+      "seed": 7,
+      "initial_tensors_rng_parameter_order_equal": true,
+      "eval_train_logits_gradients_and_adamw_update_equal": true
+    }
+  ],
+  "checkpoints": [
+    {
+      "dataset": "bus_bra",
+      "seed": 20260928,
+      "original_checkpoint_sha256": "d714ba8dd51d26df3004abdf68680bacc719c8a2afe990bab96348a014c4b088",
+      "v2_weights_sha256": "722fc1809e7ff25eb37dc693ac2953bde94cd3c3f4dda905b4ac01caea2f2f34",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "bus_0001-l",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "bus_bra",
+      "seed": 20260929,
+      "original_checkpoint_sha256": "606a9a39ad88ee1e23fdb3c459086a7efed5000086b1864963e8370ca49a4493",
+      "v2_weights_sha256": "a5d23f57feadebdcbb0f4d93fbec38576e792755c38bace07173380009792293",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "bus_0001-l",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "bus_bra",
+      "seed": 20260930,
+      "original_checkpoint_sha256": "c7b58b5ec42eccba316ad5445c3271f39ee369ef10eebd7ca73436a39464aeff",
+      "v2_weights_sha256": "afa78eccfd5860eaa42a931f6222f7e4d290eacec3e88a8b8cf5c544e7f97e02",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "bus_0001-l",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "tn3k",
+      "seed": 20260928,
+      "original_checkpoint_sha256": "f8e4f25f1e148684f14019c764a1205998aa5a782793aaf2d7112b32490c3b4d",
+      "v2_weights_sha256": "2705861d4c0f3f16e98103433dbb689956ce4df327d62bc2382cc06c40949065",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "trainval/0004",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "tn3k",
+      "seed": 20260929,
+      "original_checkpoint_sha256": "fd98567ab741922003a76339054d9278d53cd31d5920296e049d92125b60562a",
+      "v2_weights_sha256": "cc91903a3b2e4a2fe309927cfa9adec71a8bbe2e9db2e6238cd0edb5e8b7e538",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "trainval/0004",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "tn3k",
+      "seed": 20260930,
+      "original_checkpoint_sha256": "be9ee4e5564034a6668a0a253b7edae7b46187f388a802981d8082ac830829de",
+      "v2_weights_sha256": "e38588766ba6cdbb7dc454184d97f73e7074f987068eec51427b8fcb88235ca0",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "trainval/0004",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "mmotu",
+      "seed": 20260928,
+      "original_checkpoint_sha256": "d5ef00d5b0f6da50650f9ad40975001c9004d29c5c8bd7682f4189f31c094062",
+      "v2_weights_sha256": "9e4ec324771781a48ecb1b06f959994fcac1fad2f513114c9f39f5baa6caf665",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "4",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "mmotu",
+      "seed": 20260929,
+      "original_checkpoint_sha256": "bdd223431d9ef000799bda84006d8eef82e7eeddc85091e90960146ed48bad43",
+      "v2_weights_sha256": "91af26c441bb4851ba2a1caa07f52c603025e902ccd0099d817aa8cf3957f9af",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "4",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    },
+    {
+      "dataset": "mmotu",
+      "seed": 20260930,
+      "original_checkpoint_sha256": "6de39a5d37292bc68816af4835f6f67b4db1cabd687b3b9aabe5b2ce945a8ed9",
+      "v2_weights_sha256": "f803b379aee3594957f675d662c20d1c053df1aa647170a4d1a238ddd0ab22c3",
+      "all_tensors_equal_after_name_mapping": true,
+      "sample_id": "4",
+      "input_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "max_abs_logit_error": 0.0
+    }
+  ]
+}

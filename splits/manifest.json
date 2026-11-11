@@ -1,0 +1,40 @@
+{
+  "bus_bra": {
+    "file": "splits/bus_bra.csv",
+    "sha256": "1a735cab5a07787964c06eaead3376e14bdcedb34bb400db8019caccfe334c68",
+    "original_split_sha256": "ea87759108c98fdc603f3f3c46e04e091a02c1472c0e0c0e347c1ccf973ddf7c",
+    "counts": {
+      "test": 376,
+      "train": 1204,
+      "val": 295
+    }
+  },
+  "tn3k": {
+    "file": "splits/tn3k.csv",
+    "sha256": "d8292983973d4a5ee5db3af3f70167789955a1ff71136d287e066e2d28ac6b77",
+    "original_split_sha256": "3d60fb464462245ae82de2064db89f220aa6fc5af70e2e15601cffcee762eb3c",
+    "counts": {
+      "test": 614,
+      "train": 2591,
+      "val": 288
+    }
+  },
+  "mmotu": {
+    "file": "splits/mmotu.csv",
+    "sha256": "4870607dd8dbe2b82eaadfab1bc08675ac757d27bf7c115f39b3cd5381af8422",
+    "original_split_sha256": "dbfd66cd9868de4fad6045d748aed7f0d003f73e899066ef506ddd7e68dee058",
+    "counts": {
+      "test": 382,
+      "train": 703,
+      "val": 82
+    }
+  },
+  "bus_uclm": {
+    "file": "splits/bus_uclm.csv",
+    "sha256": "a8b7c3e3b3ba7b1913b2b47a86841a0b28ad0bd192ee5e6d183a8ef7d5966603",
+    "original_split_sha256": "f2d59ec60f3f1241ea7089eab1c1924beca576b848ee2e24d563f54d072bcb65",
+    "counts": {
+      "external_test": 665
+    }
+  }
+}

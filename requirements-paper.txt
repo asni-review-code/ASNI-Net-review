@@ -1,0 +1,6 @@
+# Original training dependencies (Python 3.12.3, CUDA 12.8)
+numpy==2.5.2
+pillow==12.3.0
+PyYAML==6.0.3
+scipy==1.18.1
+torch==2.8.0+cu128
