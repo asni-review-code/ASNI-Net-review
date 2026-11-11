@@ -3,7 +3,10 @@
   "images": 665,
   "lesion_images": 258,
   "weights": "weights/bus_bra_20260928.pt",
-  "weights_sha256": "3bb5b601a18ea1f040dd07a34780a02872b3908312166906ed4b40d15b350f83",
+  "weights_sha256": "722fc1809e7ff25eb37dc693ac2953bde94cd3c3f4dda905b4ac01caea2f2f34",
   "original_results_sha256": "335d1292a75898c7fc2c662b75084cb50cc0e8115c95ca5d9a0a466727ad7284",
-  "evaluation": "single fixed source checkpoint, threshold 0.5"
+  "evaluation": "single fixed source checkpoint, threshold 0.5",
+  "v1_weights_sha256": "3bb5b601a18ea1f040dd07a34780a02872b3908312166906ed4b40d15b350f83",
+  "original_checkpoint_sha256": "d714ba8dd51d26df3004abdf68680bacc719c8a2afe990bab96348a014c4b088",
+  "weight_schema": "asni-net-v2"
 }

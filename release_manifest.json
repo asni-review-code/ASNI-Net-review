@@ -183,8 +183,8 @@
       "bytes": 1407
     },
     "LICENSE": {
-      "sha256": "23c01ac6ac172a5aa23b9a6683aaab4895d49a15e168fffcdbd59b5f404f7089",
-      "bytes": 4684
+      "sha256": "1ac301749482470f420b58f937faf4ba64b024898247c8a6dbcd18c47653cc4c",
+      "bytes": 3973
     },
     "pyproject.toml": {
       "sha256": "c76c4203e77db92e057e275a68b234a26e8853893ca79dc87b6a7c06ca1fdfc3",
@@ -211,8 +211,8 @@
       "bytes": 136797
     },
     "reference_results/bus_uclm_reference.json": {
-      "sha256": "8163ba2cfa6e97ac351b84ee2491b1d098e82e13b31efa75ef5c1f7571f00eee",
-      "bytes": 372
+      "sha256": "0f0438ac8c3215cb23d2305a5b32a6f53f33465b4b7545b0a0a93c900670eb6e",
+      "bytes": 600
     },
     "reference_results/environment_original.json": {
       "sha256": "667d4807b1e5fb20cf0320de1bc698c1a5a05985b1bfa5257e0bbd0eee041072",
